@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Integration</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1 class="logo">InstaConnect</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#feed">Instagram Feed</a></li>
+        <li><a href="#social">Social Links</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+      <h2>Integrate Instagram with Your Website</h2>
+      <p>Boost your business with Instagram feeds & social links.</p>
+      <a
+        href="https://www.instagram.com/startup_mythos/"
+        target="_blank"
+        class="cta-button"
+      >
+        Follow Us on Instagram
+      </a>
+    </header>
+
+    <!-- Instagram Feed Section -->
+    <section id="feed" class="instagram-feed">
+      <h3>Our Instagram Feed</h3>
+      <div class="feed-container">
+        <!-- LightWidget Instagram Embed -->
+        <!-- SnapWidget -->
+        <iframe
+          src="https://snapwidget.com/embed/1091826"
+          class="snapwidget-widget"
+          allowtransparency="true"
+          frameborder="0"
+          scrolling="no"
+          style="border: none; overflow: hidden; width: 765px; height: 510px"
+          title="Posts from Instagram"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Social Media Links -->
+    <section id="social" class="social-links">
+      <h3>Connect With Us</h3>
+      <div class="icons">
+        <a href="https://www.instagram.com/startup_mythos/" target="_blank">
+          <img src="images/instagram.png" alt="Instagram" />
+        </a>
+        <!-- <a href="https://www.facebook.com/YOUR_PROFILE/" target="_blank"> -->
+          <img src="images/facebook.png" alt="Facebook" />
+        </a>
+        <!-- <a href="https://twitter.com/YOUR_PROFILE/" target="_blank"> -->
+          <img src="images/twitter.png" alt="Twitter" />
+        </a>
+        <!-- <a href="https://www.linkedin.com/in/YOUR_PROFILE/" target="_blank"> -->
+          <img src="images/linkedin.png" alt="LinkedIn" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© <span id="year"></span> InstaConnect. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+    <!-- LightWidget Script -->
+    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+  </body>
+</html>
